@@ -1,0 +1,63 @@
+[
+  {
+    "Id": 1,
+    "Image": "https://images.gr-assets.com/books/1447303603l/2767052.jpg",
+    "Title": "The Hunger Games",
+    "Date": "2008-09-14",
+    "Autuor": "Suzanne Collins"
+  },{
+    "Id": 2,
+    "Image": "https://images.gr-assets.com/books/1387141547l/2.jpg",
+    "Title": "Harry Potter and the Order of the Phoenix",
+    "Date": "2004-08-10",
+    "Autuor": "J.K. Rowling, Mary GrandPré"
+  },{
+    "Id": 3,
+    "Image": "https://images.gr-assets.com/books/1361975680l/2657.jpg",
+    "Title": "To Kill a Mockingbird",
+    "Date": "2006-05-23",
+    "Autuor": "Harper Lee"
+  },{
+    "Id": 4,
+    "Image": "https://images.gr-assets.com/books/1320399351l/1885.jpg",
+    "Title": "Pride and Prejudice",
+    "Date": "2000-10-10",
+    "Autuor": "Jane Austen"
+  },{
+    "Id": 5,
+    "Image": "https://images.gr-assets.com/books/1361039443l/41865.jpg",
+    "Title": "Twilight",
+    "Date": "2006-09-06",
+    "Autuor": "Stephenie Meyer"
+  },{
+    "Id": 6,
+    "Image": "https://images.gr-assets.com/books/1449868701l/11127.jpg",
+    "Title": "The Chronicles of Narnia",
+    "Date": "2002-09-16",
+    "Autuor": "C.S. Lewis, Pauline Baynes"
+  },{
+    "Id": 7,
+    "Image": "https://images.gr-assets.com/books/1390053681l/19063.jpg",
+    "Title": "The Book Thief",
+    "Date": "2006-03-14",
+    "Autuor": "Markus Zusak"
+  },{
+    "Id": 8,
+    "Image": "https://images.gr-assets.com/books/1424037542l/7613.jpg",
+    "Title": "Animal Farm",
+    "Date": "2003-05-06",
+    "Autuor": "George Orwell"
+  },{
+    "Id": 9,
+    "Image": "https://images.gr-assets.com/books/1328025229l/18405.jpg",
+    "Title": "Gone with the Wind",
+    "Date": "1999-04-01",
+    "Autuor": "Margaret Mitchell"
+  },{
+    "Id": 10,
+    "Image": "https://images.gr-assets.com/books/1174210942l/370493.jpg",
+    "Title": "The Giving Tree",
+    "Date": "1964-10-07",
+    "Autuor": "Shel Silverstein"
+  }
+]

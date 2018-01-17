@@ -1,0 +1,14 @@
+<div class="modal-header">
+  <h4 class="modal-title">Notice!</h4>
+  <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body">
+  <h5>You can not Restore after Delete</h5>
+  <p>Are you sure you want to Delete this book?</p>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-outline-dark" (click)="activeModal.dismiss('Popup Closed')">Cancel</button>
+  <button type="submit" class="btn btn-outline-danger" (click)="activeModal.close()">Delete</button>
+</div>

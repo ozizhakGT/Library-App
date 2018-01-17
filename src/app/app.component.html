@@ -1,0 +1,11 @@
+<books-navbar (queryChanged)="onQueryChange($event)"
+              (onAddBook)="onAddBook($event)"
+              (onSortSelect)="onSortSelect($event)">
+</books-navbar>
+
+<books-table  [books]='books'
+              [queryString]='queryString'
+              [sortBy]='sortBy'
+              (deleteBook)="OnDeleteBook($event)"
+              (editBook)="onEditBook($event)">
+</books-table>

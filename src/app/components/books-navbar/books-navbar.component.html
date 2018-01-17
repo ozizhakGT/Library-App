@@ -1,0 +1,30 @@
+<nav class=" navbar navbar-expand-md navbar-light bg-light fixed-top">
+  <a href='#' class="navbar-brand">
+    <img class="logo" src="https://www.asme.org/getmedia/c2c8ea5a-b690-4ba7-92bb-34bd1432862b/book_guide_hero_books.aspx">
+    LibraryApp
+  </a>
+
+  <div class=" collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class=" navbar-nav mr-auto">
+      <li class="nav-item margin-right-20">
+        <div ngbDropdown class="d-inline-block">
+          <button class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>Sort By</button>
+          <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+            <button class="dropdown-item" (click)="onSort('Title')">Title</button>
+            <button class="dropdown-item" (click)="onSort('Autuor')">Autuor</button>
+            <button class="dropdown-item" (click)="onSort('Date')">Date</button>
+          </div>
+        </div>
+      </li>
+      <li>
+        <form class="form-inline my-2 my-lg-0">
+          <input name="queryString" [(ngModel)]="queryString" (input)="onChange()" class="form-control mr-sm-2" type="text" placeholder="Search Book"
+            aria-label="Search">
+        </form>
+      </li>
+    </ul>
+  </div>
+
+  <button class="btn btn-primary my-2 my-sm-0" (click)="open()">Add Book</button>
+
+</nav>
